@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker Favorites</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .favorites-section {
+            background-color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .favorites-section h2 {
+            margin-bottom: 40px;
+        }
+
+        .favorite-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .favorite {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .favorite img {
+            border-radius: 8px;
+            width: 100%;
+            height: 180px;
+            margin-bottom: 15px;
+        }
+
+        .favorite h3 {
+            margin: 10px 0 5px;
+        }
+
+        .favorite p {
+            margin: 0 0 10px;
+            padding: 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+
+    
+
+    <div class="container">
+        <section class="favorites-section">
+            <h2>Your Favorite Workouts</h2>
+            <div class="favorite-card">
+                <div class="favorite">
+                    <img src="https://media.post.rvohealth.io/wp-content/uploads/2020/07/running_at_sunset-732x549-thumbnail-732x549.jpg" alt="Favorite Workout 1">
+                    <h3>Morning Yoga</h3>
+                    <p>A relaxing yoga session to start your day.</p>
+                </div>
+                <div class="favorite">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR71_T4cq7gyDBvuhNXRlVKJZFEbei78i3g5Q&s" alt="Favorite Workout 2">
+                    <h3>HIIT Workout</h3>
+                    <p>High-Intensity Interval Training for quick results.</p>
+                </div>
+                <div class="favorite">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0cyaG4btLhibJ2rfMAhOk5ChPkSSENQv6A&s" alt="Favorite Workout 3">
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and strength with these exercises.</p>
+                </div>
+                <div class="favorite">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIiIGc1GJ7yoFti5NRC6FK5K7n-sICF8EMA&s" alt="Favorite Workout 4">
+                    <h3>Evening Run</h3>
+                    <p>A great way to end your day with a run.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
